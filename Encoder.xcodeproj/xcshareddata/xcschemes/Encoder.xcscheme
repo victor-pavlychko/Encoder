@@ -28,7 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "57F5A3B31DF98D4F00E5642B"
+               BuildableName = "EncoderTests.xctest"
+               BlueprintName = "EncoderTests"
+               ReferencedContainer = "container:Encoder.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "5780D4441DF98CE700E99100"
+            BuildableName = "Encoder.framework"
+            BlueprintName = "Encoder"
+            ReferencedContainer = "container:Encoder.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
