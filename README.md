@@ -1,5 +1,6 @@
 # Encoder
 
+[![CI Status](http://img.shields.io/travis/victor-pavlychko/Encoder.svg?style=flat)](https://travis-ci.org/victor-pavlychko/Encoder)
 [![Pod Version](https://img.shields.io/cocoapods/v/ModelEncoder.svg?style=flat)](http://cocoapods.org/pods/ModelEncoder)
 [![Carthage: compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![License: MIT](https://img.shields.io/badge/license-MIT-3b3b3b.svg?style=flat)](https://github.com/victor-pavlychko/Encoder/blob/master/LICENSE)

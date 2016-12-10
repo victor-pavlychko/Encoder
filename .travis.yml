@@ -7,4 +7,4 @@ osx_image: xcode8
 install:
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 script:
-- set -o pipefail && xcodebuild test -project Encoder.xcodeproj -scheme Encoder -sdk iphonesimulator -destination 'iPhone SE' ONLY_ACTIVE_ARCH=NO | xcpretty -c
+- set -o pipefail && xcodebuild test -project Encoder.xcodeproj -scheme Encoder -sdk iphonesimulator -destination 'name=iPhone SE' ONLY_ACTIVE_ARCH=NO | xcpretty -c
