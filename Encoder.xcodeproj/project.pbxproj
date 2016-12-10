@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		57D922311DFAFB0600309D6C /* EncodableOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D922301DFAFB0600309D6C /* EncodableOptional.swift */; };
+		57D922351DFC49A900309D6C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 57D922321DFC49A900309D6C /* .gitignore */; };
+		57D922361DFC49A900309D6C /* .swift-version in Resources */ = {isa = PBXBuildFile; fileRef = 57D922331DFC49A900309D6C /* .swift-version */; };
+		57D922371DFC49A900309D6C /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 57D922341DFC49A900309D6C /* .travis.yml */; };
 		57F5A3B71DF98D4F00E5642B /* EncoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F5A3B61DF98D4F00E5642B /* EncoderTests.swift */; };
 		57F5A3B91DF98D4F00E5642B /* Encoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5780D4451DF98CE700E99100 /* Encoder.framework */; };
 		57F5A3C01DF98DBF00E5642B /* Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F5A3BF1DF98DBF00E5642B /* Encoder.swift */; };
@@ -39,6 +42,9 @@
 		5780D4451DF98CE700E99100 /* Encoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Encoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5780D4491DF98CE700E99100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57D922301DFAFB0600309D6C /* EncodableOptional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EncodableOptional.swift; sourceTree = "<group>"; };
+		57D922321DFC49A900309D6C /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		57D922331DFC49A900309D6C /* .swift-version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
+		57D922341DFC49A900309D6C /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		57F5A3B41DF98D4F00E5642B /* EncoderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EncoderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57F5A3B61DF98D4F00E5642B /* EncoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncoderTests.swift; sourceTree = "<group>"; };
 		57F5A3B81DF98D4F00E5642B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -136,6 +142,9 @@
 				57F5A3D81DF9B9C600E5642B /* README.md */,
 				57F5A3D51DF9B9C600E5642B /* CHANGELOG.md */,
 				57F5A3D71DF9B9C600E5642B /* LICENSE */,
+				57D922321DFC49A900309D6C /* .gitignore */,
+				57D922341DFC49A900309D6C /* .travis.yml */,
+				57D922331DFC49A900309D6C /* .swift-version */,
 				57F5A3D61DF9B9C600E5642B /* ModelEncoder.podspec */,
 			);
 			name = Meta;
@@ -234,7 +243,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57D922371DFC49A900309D6C /* .travis.yml in Resources */,
+				57D922361DFC49A900309D6C /* .swift-version in Resources */,
 				57F5A3DB1DF9B9C600E5642B /* LICENSE in Resources */,
+				57D922351DFC49A900309D6C /* .gitignore in Resources */,
 				57F5A3DA1DF9B9C600E5642B /* ModelEncoder.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
